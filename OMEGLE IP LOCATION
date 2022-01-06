@@ -32,7 +32,7 @@ let getLocation = async (ip) => {
       const output = `
           ---------------------
           Country: ${json.country_name}
-          Country: ${json.ip}
+          IP Address: ${json.ip}
           State: ${json.state_prov}
           City: ${json.city}
           District: ${json.district}
